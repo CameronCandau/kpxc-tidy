@@ -1,0 +1,21 @@
+[package]
+name = "kpxc-tidy"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "A cautious terminal UI for auditing and cleaning KeePassXC databases via keepassxc-cli."
+license = "GPL-3.0-or-later"
+keywords = ["keepassxc", "tui", "passwords", "audit"]
+categories = ["command-line-utilities"]
+readme = "README.md"
+documentation = "https://docs.rs/kpxc-tidy"
+include = ["Cargo.toml", "Cargo.lock", "README.md", "LICENSE", "src/**"]
+
+[dependencies]
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+crossterm = "0.29"
+ratatui = "0.29"
+rpassword = "7.4"
+roxmltree = "0.20"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

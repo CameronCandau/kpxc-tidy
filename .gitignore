@@ -1,0 +1,9 @@
+/target/
+.codex
+kpxc-tidy-report-*.md
+*.kdbx
+*.key
+*.xml
+*.bak
+*.swp
+.DS_Store
