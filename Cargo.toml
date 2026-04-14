@@ -9,6 +9,7 @@ keywords = ["keepassxc", "tui", "passwords", "audit"]
 categories = ["command-line-utilities"]
 readme = "README.md"
 documentation = "https://docs.rs/kpxc-tidy"
+repository = "https://github.com/CameronCandau/kpxc-tidy"
 include = ["Cargo.toml", "Cargo.lock", "README.md", "LICENSE", "src/**"]
 
 [dependencies]
